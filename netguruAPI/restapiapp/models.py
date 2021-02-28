@@ -8,4 +8,11 @@ class Car (models.Model):
     avg_rating = models.FloatField(default=0)
 
     def __str__(self):
-        return self.make
+        return self.id
+
+class Rate(models.Model):
+    rate = models.IntegerField(default=0)
+    car_id = models.ForeignKey(Car,on_delete= models.CASCADE)
+
+    def __str__(self):
+        return self.rate

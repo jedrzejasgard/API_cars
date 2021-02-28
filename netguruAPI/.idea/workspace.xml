@@ -4,8 +4,11 @@
     <list default="true" id="ab4f40fa-c0cf-410f-ba43-dff5a3de89e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netguruAPI/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netguruAPI/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/netguruAPI/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restapiapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/restapiapp/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restapiapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/restapiapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapiapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/restapiapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -72,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614423202787</updated>
-      <workItem from="1614423204274" duration="2774000" />
+      <workItem from="1614423204274" duration="33068000" />
+      <workItem from="1614537376699" duration="2281000" />
     </task>
     <servers />
   </component>
@@ -89,5 +94,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

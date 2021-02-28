@@ -26,7 +26,7 @@ SECRET_KEY = '_4s6wap)nx*us^)77oatqcgol5%4fm6qusk7cec=34c9!=i*6u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://restapicars.herokuapp.com/']
 
 
 # Application definition

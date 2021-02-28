@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab4f40fa-c0cf-410f-ba43-dff5a3de89e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/netguruAPI/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/netguruAPI/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="ab4f40fa-c0cf-410f-ba43-dff5a3de89e1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614423202787</updated>
       <workItem from="1614423204274" duration="33068000" />
-      <workItem from="1614537376699" duration="2359000" />
+      <workItem from="1614537376699" duration="2739000" />
     </task>
     <servers />
   </component>

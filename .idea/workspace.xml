@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c532d55a-33a0-43ab-998b-4d9c816eb980" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/django_heroku-0.3.1.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/django_heroku-0.3.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/django_heroku-0.3.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/django_heroku-0.3.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/django_heroku-0.3.1.dist-info/REQUESTED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/django_heroku-0.3.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/django_heroku-0.3.1.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/django_heroku-0.3.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/django_heroku/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/django_heroku/__version__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lib/site-packages/django_heroku/core.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/netguruAPI/netguruAPI/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/netguruAPI/netguruAPI/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netguruAPI/restapiapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/netguruAPI/restapiapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +33,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614628371479</updated>
       <workItem from="1614628372853" duration="309000" />
-      <workItem from="1614629170368" duration="678000" />
+      <workItem from="1614629170368" duration="1076000" />
     </task>
     <servers />
   </component>

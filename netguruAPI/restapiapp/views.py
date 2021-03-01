@@ -1,5 +1,4 @@
-from django.shortcuts import render
-from django.http import HttpResponse,JsonResponse
+
 from rest_framework.parsers import JSONParser
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -24,20 +23,20 @@ def car_check(model,make):
 
 
 def avr_car(car_id):
-    rats = Rate.objects.filter(car_id=pk).values()
+    rats = Rate.objects.filter(car_id=car_id).values()
     total_ratings = 0
     i = 0
     for ocena in rats:
-        suma_ocen += (ocena['rate'])
-        ilosc_ocen += 1
-    return round( total_ratings / i, 2)
+        total_ratings += (ocena['rate'])
+        i += 1
+    return round(total_ratings / i, 2)
 
 
 @api_view(['GET','POST'])
 def cars(request):
     if request.method == 'GET':
         cars = Car.objects.all()
-        serializer =CarSerializer(cars,many=True)
+        serializer = CarSerializer(cars,many=True)
         return Response(serializer.data,status = status.HTTP_200_OK)
 
     elif request.method == 'POST':
@@ -95,7 +94,7 @@ def rate(request):
 def popular(request):
     if request.method == 'GET':
         cars = Car.objects.order_by('-rates_number')
-        serializer =PopularSerializer(cars,many=True)
+        serializer = PopularSerializer(cars,many=True)
         return Response(serializer.data,status = status.HTTP_200_OK)
     else:
         return Response(status=status.HTTP_405_METHOD_NOT_ALLOWED)
